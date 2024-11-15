@@ -1,0 +1,259 @@
+/* Imported Roboto Font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Resets  Starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Resets Ends  */
+
+ /* Body Styling Starts */
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Body Styling Ends  */
+
+/* Header Section Styling Starts Here  */
+
+header {
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 30px 80px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-li {
+    font-size: 18px;
+    color: E5E7EB;
+}
+
+.nav-li:hover {
+    border-bottom: 2px solid white;
+    transition: ease-in-out 1s;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+#hero-main {
+    font-size: 48px;
+    color: F9FAF8;
+    font-weight: 900;
+    line-height: 3rem;
+}
+
+#hero-p {
+    font-size: 18px;
+    color: E5E7EB;
+}
+
+.learn-more {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    
+}
+
+.learn-more:hover {
+    background-color: transparent;
+    border: 2px solid #3882F6;
+    transition: ease-out 1s;
+}
+
+.oop {
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.oop:hover {
+    width: 42vw;
+    height: auto;
+    border-radius: 15px;
+    transition: ease-in-out 1s;
+}
+ 
+/* Header Section Styling Ends Here  */
+
+/* Service Section Styling Starts Here  */
+
+.services {
+    margin-top: 100px;
+    color: black;
+}
+
+.service-head {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.img-service {
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.img-service:hover {
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+
+.service-title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.service-title:hover {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+    transition: ease-in-out 1s;
+}
+
+/* Service Section Styling Ends Here  */
+
+
+/* Quote Section Styling Starts Here  */
+
+.customer-message {
+    background-color: #E5E7EB;
+    margin: 7rem 0;
+    padding: 30px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#cus-p {
+
+    font-weight: light;
+
+
+}
+
+#cus-name {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Quote-Section Styling Ends Here  */
+
+/* Call-action section styling starts here / */
+
+.call-action {
+    background-color: #3882F6;
+    margin: 2rem 7rem;
+    padding: 2rem;
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.call-details {
+    line-height: 1rem
+}
+
+#call-head {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#call-p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.email-us {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 10px 20px;
+    font-size: 24px;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+
+}
+
+.email-us:hover {
+    border: 2px solid black;
+}
+
+/* Call-action section styling ends here  */
+
+/* Footer section styling starts here  */
+
+footer {
+    background-color: #1F2937;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer>a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer section styling ends here  */
+
+
